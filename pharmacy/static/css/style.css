@@ -1,28 +1,28 @@
 .final-homepage {
     display: flex;
     flex-direction: column;
-    height: 2935px;
+    /* height: 2935px; */
     align-items: center;
-    position: relative;
+    /* position:-ms-page; */
     background-color: #ffffff;
     overflow-x: hidden;
 }
 
 .final-homepage .navbar-up {
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     justify-content: center;
-    padding: 0px 24px;
-    position: relative;
-    align-self: stretch;
+    padding: 0px 100px;
+    /* position: relative; */
+    /* align-self: stretch; */
     width: 100%;
-    flex: 0 0 auto;
+    /* flex: 0 0 auto; */
     background-color: #ffffff;
 }
 
 .final-homepage .navbar-container {
     display: flex;
-    width: 1200px;
+    width: 120px;
     height: 95px;
     align-items: center;
     justify-content: center;
@@ -31,13 +31,13 @@
 
 .final-homepage .navbar-wrapper {
     display: flex;
-    width: 1412px;
+    width: 1200px;
     align-items: center;
     padding: 0px 24px 0px 36px;
     position: relative;
     align-self: stretch;
     margin-left: -106px;
-    margin-right: -106px;
+    /* margin-right: -106px; */
     background-color: #ffffff;
 }
 
@@ -45,16 +45,16 @@
     display: flex;
     width: 1200px;
     align-items: center;
-    position: relative;
+    /* position: relative; */
 }
 
 .final-homepage .navbar-content {
     display: flex;
-    width: 1334px;
+    width: 1200px;
     align-items: center;
     justify-content: space-between;
     position: relative;
-    margin-right: -134px;
+    /* margin-right: -134px; */
 }
 
 .final-homepage .navbar-brand {
@@ -102,7 +102,7 @@
 }
 
 .final-homepage .pngwing {
-    position: relative;
+    /* position: relative; */
     width: 16px;
     height: 22px;
     object-fit: cover;
@@ -142,7 +142,7 @@
     position: relative;
     width: 25px;
     height: 25px;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .final-homepage .text-wrapper-2 {
@@ -160,7 +160,7 @@
 
 .final-homepage .navlow {
     display: flex;
-    width: 1440px;
+    width: 1300px;
     height: 27px;
     align-items: flex-start;
     justify-content: center;
@@ -241,20 +241,20 @@
 
 .final-homepage .slider-container {
     position: relative;
-    width: 1343px;
+    width:1200px;
     height: 201px;
     overflow: hidden;
 }
 
 .final-homepage .group {
     position: relative;
-    width: 5492px;
+    width: 492px;
     height: 201px;
 }
 
 .final-homepage .element {
     position: absolute;
-    width: 1343px;
+    width: 1200px;
     height: 201px;
     top: 0;
     left: 0;
@@ -263,7 +263,7 @@
 
 .final-homepage .element-2 {
     position: absolute;
-    width: 1343px;
+    width: 343px;
     height: 201px;
     top: 459px;
     left: 662px;
@@ -272,7 +272,7 @@
 
 .final-homepage .element-3 {
     position: absolute;
-    width: 1343px;
+    width: 1200px;
     height: 201px;
     top: 459px;
     left: 2045px;
@@ -281,7 +281,7 @@
 
 .final-homepage .element-4 {
     position: absolute;
-    width: 1343px;
+    width: 1200px;
     height: 201px;
     top: 459px;
     left: 3428px;
@@ -291,10 +291,10 @@
 .final-homepage .search-bar {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: 1200px;
     height: 446px;
     align-items: center;
-    padding: 35px 24px 18px;
+    padding: 35px 4px 8px;
     position: relative;
     overflow: hidden;
 }
@@ -414,12 +414,12 @@
     gap: 10px;
     position: absolute;
     top: 644px;
-    left: -103px;
+    left: -150px;
 }
 
 .final-homepage .div-2 {
     position: relative;
-    width: 1492px;
+    width: 192px;
     height: 512px;
 }
 
@@ -516,14 +516,14 @@
 .final-homepage .offers {
     display: flex;
     flex-direction: column;
-    width: 1348px;
+    width: 1300px;
     height: 525px;
     align-items: center;
     gap: 24px;
-    padding: 36px 44px;
+    padding: 36px 4px;
     position: absolute;
     top: 1196px;
-    left: 46px;
+    left: 24px;
     background-color: #fdffca80;
     overflow: hidden;
 }
@@ -642,13 +642,13 @@
 
 .final-homepage .description {
     display: flex;
-    width: 1346px;
+    width: 1150px;
     align-items: center;
     gap: 110px;
-    padding: 30px 74px 33px 122px;
+    padding: 20px 74px 33px 72px;
     position: absolute;
-    top: 1761px;
-    left: 47px;
+    top: 1799px;
+    left: 19px;
     box-shadow: 0px 4px 4px #00000040;
 }
 
@@ -669,10 +669,10 @@
 
 .final-homepage .customer-words {
     position: absolute;
-    width: 1440px;
+    width: 1309px;
     height: 444px;
-    top: 2198px;
-    left: 0;
+    top: 2230px;
+    left: 10;
     background-color: #f7fff1;
     overflow: hidden;
 }
@@ -682,10 +682,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 05px;
     position: absolute;
     top: 45px;
-    left: -97px;
+    left: -189px;
 }
 
 .final-homepage .vector-wrapper {
@@ -771,7 +771,7 @@
 .final-homepage .text-wrapper-11 {
     position: relative;
     width: fit-content;
-    margin-top: -1px;
+    margin-top: 1px;
     font-family: "Outfit-Medium", Helvetica;
     font-weight: 500;
     color: #ffffff;
@@ -823,14 +823,14 @@
 .final-homepage .footer {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: 1300px;
     align-items: center;
     justify-content: flex-end;
     gap: 40px;
     padding: 64px 24px 8px;
     position: absolute;
-    top: 2663px;
-    left: 0;
+    top: 2703px;
+    left: -100;
     background-color: #f5f7fa;
 }
 
@@ -914,14 +914,14 @@
     align-items: flex-start;
     gap: 16px;
     position: relative;
-    align-self: stretch;
+    /* align-self: stretch; */
     width: 100%;
     flex: 0 0 auto;
 }
 
 .final-homepage .text-wrapper-14 {
     position: relative;
-    align-self: stretch;
+    /* align-self: stretch; */
     margin-top: -1px;
     font-family: "Inter-Bold", Helvetica;
     font-weight: 700;
@@ -937,13 +937,13 @@
     align-items: flex-start;
     gap: 8px;
     position: relative;
-    align-self: stretch;
+    /* align-self: stretch; */
     width: 100%;
     flex: 0 0 auto;
 }
 
 .final-homepage .link {
-    align-self: stretch;
+    /* align-self: stretch; */
     margin-top: -1px;
     position: relative;
     font-family: "Inter-Regular", Helvetica;
@@ -956,7 +956,7 @@
 
 .final-homepage .link-2 {
     position: relative;
-    align-self: stretch;
+    /* align-self: stretch; */
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
     color: #212121;
@@ -992,7 +992,7 @@
 
 .final-homepage .designed-by {
     position: relative;
-    align-self: stretch;
+    /* align-self: stretch; */
     height: 28px;
     font-family: "Inter-Regular", Helvetica;
     font-weight: 400;
