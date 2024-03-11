@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/homepage.css">
+    <title>Mahalaxmi Medicals</title>
+</head>
+<body>
+
+  <header>
+    <h1>Mahalaxmi Medicals</h1>
+    <p>Your Trusted Neighborhood Pharmacy</p>
+  </header>
+
+  <nav>
+    <!-- Add navigation links if needed -->
+    <a href="login" style="color: white;" >Login</a>
+        
+        <a href="/ " style="color: white;">Home</a>
+  </nav>
+<center>
+  <div class="huge_assbox">
+    {% if submitted %}
+<b>your form was registered</b>
+<br>
+<br>
+<i>Click Here To Go Back To The Login Page---->>>></i>
+<a href="/"> Go Back to Login Page</a>
+
+
+
+    {% else %}
+
+
+<form action="" method="POST">
+<br>
+{% csrf_token %}
+<div class ="register-page">
+    <div class="box"></div>
+    <h2>
+        <center>
+            Register HERE
+        </center>
+    </h2>
+    <br><label> Enter Your first name :</label>
+    <input style="margin-left:7px;" class="te" type="text" name="firstname" id="">
+    
+    <br>
+    <br><label style="color: turquoise;"> Enter Your last name:</label>
+    <input  style="margin-left:7px;" class="te" type="text" name="lastname" id="">
+    {% comment %} <br><br>Enter Your address<br>
+    <br>
+    <input  class="te" type="text" name="address1" id="" placeholder=" your address">
+    
+    <br> 
+    <br>
+    <input  class="te" type="text" name="address2" id="" placeholder=" your state">
+    
+    <br> 
+    <br>
+    <input  class="te" type="text" name="address3" id="" placeholder=" your country">
+
+    <br> 
+    <br>
+    <input  class="te" type="text" name="address4" id="" placeholder=" zip code"> {% endcomment %}
+
+
+    
+    <br> 
+    <br>
+    <!-- <label for="cars">Choose a car:</label>
+<select name="cars" id="cars">
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select> -->
+    <br>
+    <label>Phone Number:</label>
+    <input style="margin-left: 7px;" type="tel"  placeholder="+91"><br>
+    <br>
+    <label> Enter Your email:</label>
+    <input class="te" type="email" name="email" id=""placeholder="Enter your email"><br>
+    <br><label> Enter Your password:</label>
+    <input  class="te" type="password" name="password1" id="">
+    <br>
+    
+    <br><label>Confirm Password:</label>
+    <input  class="te" type="password" name="password2" id="">
+    
+    <br>
+    
+    
+    <br>
+    
+    <div class="button">
+        <button class="btn-1" type="submit">
+            Submit
+        </button>
+    </div>
+    {% if messages %}
+        {% for message in messages %}
+            {{message}} 
+        {% endfor %}
+    {% endif %}
+</div>
+</form>
+    {% endif %}
+
+
+</div>
+</center>
+
+</body>
+</html>

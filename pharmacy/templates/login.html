@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% csrf_token %}
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/homepage.css">
+    <title>Mahalaxmi Medicals</title>
+</head>
+<body>
+
+    <header>
+        <h1>Mahalaxmi Medicals</h1>
+        <p>Your Trusted Neighborhood Pharmacy</p>
+    </header>
+
+    <nav>
+        <!-- Add navigation links if needed -->
+        <a href="login" style="color: white;">Login</a>
+        <a href="registration" style="color: white;">Sign-up</a>
+        <a href="/ " style="color: white;">Home</a>
+    </nav>
+<center>
+    <div class="login">
+        <form action="" method="POST" class="login">
+        {% csrf_token %}
+        <div class="log">
+            <h2>LOGIN HERE</h2>
+            <br>
+        <label for="">
+            Enter your email
+        </label>
+        <br>
+        <br>
+        <input class="text" type="email" name="email" id="" placeholder="Enter your email">
+        <br>
+        <br>
+        
+        <label for="">
+            Enter your Password
+        </label>
+        <br>
+        <br>
+        <input class="pass" type="password" name="password" id="" placeholder="Enter your Password">
+        <br>
+            <br>
+            <div class="button">
+                <button class="btn-1" type="submit" onclick="login()">
+                    Submit
+                </button>
+            </div>
+            <br>
+            
+        {% if messages %}
+            {% for message in messages %}
+                {{message}} 
+            {% endfor %}
+        {% endif %}
+             
+            <br>
+            <label for="" class="page">
+                <b>Registration Now</b>
+                <br>
+                <b>Click The link below to register now</b>
+                <br>
+                <a href="registration">Register Here</a>
+                <br><br>
+            </label>
+        </div>
+        </form>
+        </div>
+    </center>
+    </body>
+</html>
+
